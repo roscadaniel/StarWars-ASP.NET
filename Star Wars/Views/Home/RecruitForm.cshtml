@@ -1,0 +1,46 @@
+﻿@model StarWars.Models.ThePlayer
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="Stylesheet" href="@Href("~/Content/Site.css")" type="text/css" />
+    <script src="../../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <title>RecruitForm</title>
+</head>
+<body>
+    @using(Html.BeginForm()) { 
+     @Html.ValidationSummary() 
+    <p>Your name: @Html.TextBoxFor(x => x.Name)</p>
+    <p>Your email: @Html.TextBoxFor(x => x.Email)</p>
+    <p>Your preferred light saber color: @Html.TextBoxFor(x => x.LightSaberColor)</p>
+    <p>
+        Will you join the dark side?
+            @Html.DropDownListFor(x => x.DarkSide, new[] {
+                new SelectListItem { Text = "Oh Yes! Yes! I've always wanted to be a Sith Warrior!",
+                Value = bool.TrueString },
+                new SelectListItem { Text = "No, I really think we all just ought to get along nicely.",
+                Value = bool.FalseString }
+                        }, "Choose an option")    
+    </p>
+    <input type="submit" value="Start a cosmic scrap! " id="subbtn" />
+    }
+    
+    <div id="InfoDiv" class="battledata">
+    <p>
+      The LightSaber battle generator is now running your scrap with Luke and Luke Sr. - please have patience with your CPU, this will take a few minutes ;-)
+    </p>
+    </div>
+    
+    <script type="text/javascript">
+        $("#subbtn").click(function () {
+            $(".battledata").fadeIn(4000); // fade in div when submit button is clicked     
+        });
+    </script>
+</body>
+</html>
+

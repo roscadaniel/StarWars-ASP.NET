@@ -1,0 +1,43 @@
+﻿@model StarWars.Models.ThePlayer
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="Stylesheet" href="@Href("~/Content/Site.css")" type="text/css" />
+    <script src="../../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>    
+    <title>Jedi_Vs_Sith</title>
+</head>
+<body>
+    <div>
+        <h1>Thank you, @Model.Name!</h1>
+        @if (Model.DarkSide == true) {
+        @:You have chosen wisely, apprentice.. there will be no end to our Sith nastiness now you're on board!
+         } else { 
+        @:Thank you for letting us know that you will help us prevail over the Dark Side. Or at least, try.      
+        }   
+        <p>
+        <input type="button" id="executebattle" name="executebattle" value="Reveal what has now transpired in the galaxy!" />               
+        </p>
+    </div>
+    <div id="BattleDiv" class="battledata">
+     <ul>
+     @foreach (var eventdesc in ViewBag.FightDescription) {
+         <li>@eventdesc</li>
+     }
+     </ul>
+    </div>
+    
+    <script type="text/javascript">
+        $("#executebattle").click(function () {
+            $(".battledata").show(); // show div when reveal button is clicked       
+        });
+    </script>
+
+</body>
+</html>
+
