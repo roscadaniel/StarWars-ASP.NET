@@ -10,7 +10,7 @@ namespace StarWars.Controllers
 {
     public class HomeController : Controller
     {
-        // Hello Poonam is here
+        // Hello Poonam was here
         // GET: /Home/
         public ActionResult Index()
         {

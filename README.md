@@ -1,4 +1,4 @@
 StarWars-ASP.NET
 ================
 
-start wars assignment KEA
+StarWars assignment KEA

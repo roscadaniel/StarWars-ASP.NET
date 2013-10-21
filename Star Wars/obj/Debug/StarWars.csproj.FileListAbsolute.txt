@@ -1,0 +1,30 @@
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\Star Wars.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\Star Wars.pdb
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\Antlr3.Runtime.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\EntityFramework.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\Newtonsoft.Json.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Net.Http.Formatting.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Http.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Http.WebHost.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Mvc.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Optimization.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Providers.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Razor.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.WebPages.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.WebPages.Razor.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\WebGrease.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\EntityFramework.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\Newtonsoft.Json.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Net.Http.Formatting.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Http.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Http.WebHost.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Mvc.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.Razor.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.WebPages.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\bin\System.Web.WebPages.Razor.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\obj\Debug\StarWars.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\obj\Debug\Star Wars.dll
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\StarWars-ASP.NET\Star Wars\obj\Debug\Star Wars.pdb
