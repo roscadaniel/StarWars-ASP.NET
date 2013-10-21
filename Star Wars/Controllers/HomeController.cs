@@ -16,6 +16,10 @@ namespace StarWars.Controllers
         {
             int hour = DateTime.Now.Hour;
             ViewBag.Greeting = hour < 12 ? "Good morning" : "Good afternoon";
+
+            Logging logTxt = new Helpers.Logging();
+            logTxt.Main("our text here");
+
             return View();
         }
 
@@ -66,6 +70,11 @@ namespace StarWars.Controllers
                 // start up third knight in game log
                 gameLog.FightEvents.AddRange(LukeS.fightLog.FightEvents);
 
+                //Set up Obi Wam
+                Obi_Wan ObiWan = new Obi_Wan();
+                gameLog.FightEvents.Add(ObiWan.Encouragement);
+                gameLog.FightEvents.Add(ObiWan.Dismay);
+
                 List<JediKnight> myJedis = new List<JediKnight>();
                 myJedis.Add(myWarrior);
                 myJedis.Add(DarthV);
@@ -110,7 +119,10 @@ namespace StarWars.Controllers
                             if (!warrior.Deceased)
                             {
                                 warrior.AttackEnemy(warrior, DarthV);
-                                if (myWarrior.DarkSide == true) { warrior.AttackEnemy(warrior, myWarrior); }
+                                if (myWarrior.DarkSide == true) { 
+                                    warrior.AttackEnemy(warrior, myWarrior);
+                                    ObiWan.SaveLuke(warrior);
+                                }
                             }
                             else
                             {
@@ -166,7 +178,6 @@ namespace StarWars.Controllers
                 {
                     ViewBag.FightDescription.Add(FightEvent);
                 }
-
 
                 return View("Jedi_Vs_Sith", myWarrior);
             }

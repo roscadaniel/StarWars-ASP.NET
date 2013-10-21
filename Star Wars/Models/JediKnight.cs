@@ -99,8 +99,13 @@ namespace StarWars.Models
                                              + currentLightSaberAction);
 
                     // Make a stab using the current DamageLevel cast to an int. Record which new damage level resulted from the attack.
-                    System.Threading.Thread.Sleep(1500); // skip a heartbeat here, so we get a new random seed number
+                    System.Threading.Thread.Sleep(1000); // skip a heartbeat here, so we get a new random seed number
                     randomInt = ranGen.RandomInteger((int)(opponent.currentDamageLevel));
+
+                    Logging logTxt = new Helpers.Logging();
+
+                    logTxt.Main("Jedi Knight random health level is: " + randomInt);
+
                     // Series of if statements, to determine which damage level is closest to the generated number
                     if (randomInt >= 50)
                         opponent.currentDamageLevel = DamageLevel.Healthy;
