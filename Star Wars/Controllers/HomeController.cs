@@ -183,11 +183,12 @@ namespace StarWars.Controllers
                     if (!warrior.Deceased)
                     {
                         gameLog.FightEvents.Add("Ho ho ho! " + warrior.Name + "'s still around, with a rude health of: " + warrior.currentDamageLevel);
-
+                        gameLog.FightEvents.Add(warrior.Name+ " has died " + warrior.numOfDeaths +" times");
                     }
                     else
                     {
                         gameLog.FightEvents.Add("Awww, " + warrior.Name + " is sleeping with the fishes!");
+                        gameLog.FightEvents.Add(warrior.Name + " has died " + warrior.numOfDeaths + " times");
                     }
                 }
 

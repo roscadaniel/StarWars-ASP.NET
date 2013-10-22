@@ -43,6 +43,7 @@ namespace StarWars.Models
         public bool Deceased { get; set; }
         public AttackRecorder fightLog { get; set; }
         public string LastWords { get; set; }
+        public int numOfDeaths {get; set; }
 
         // info properties we need to set up a new recruit
         [Required(ErrorMessage = "Please enter your name")]
@@ -71,6 +72,7 @@ namespace StarWars.Models
                                           "I'll kick your butt to Tatooine and back - you miserable meat popsicle pumped up on hydrogen derivates!",
                                           "Hey, mr. two-brain-cells-kissing... watch this!" };
 
+        
         // attack another jedi knight with the help of magic random numbers       
         public void AttackEnemy(JediKnight jediKnight, JediKnight opponent)
         {
@@ -78,7 +80,7 @@ namespace StarWars.Models
             {
                 // set up an attack using a standard lightsaber action, registering opponent's resulting damage level, and slandering him                
                 if (opponent.currentDamageLevel == DamageLevel.Wasted)
-                {
+                {   
                     // He's already finito.. see if we can make him join the game again!
                     jediKnight.fightLog.FightEvents.Add(jediKnight.Name + " takes a poke trying to off " + opponent.Name + " who is already at the Rigor Mortis stage. Tsk, tsk.. a bit necro-phixated, are we?");
                     // Rescusiate..
@@ -117,6 +119,7 @@ namespace StarWars.Models
                     {
                         opponent.currentDamageLevel = DamageLevel.Wasted;
                         opponent.Deceased = true;
+                        jediKnight.numOfDeaths++;
                     }
 
                     jediKnight.fightLog.FightEvents.Add(opponent.Name + " now has a damage level of: " + opponent.currentDamageLevel + " based on a randomInt of " + randomInt);
@@ -133,6 +136,10 @@ namespace StarWars.Models
                         jediKnight.fightLog.FightEvents.Add(opponent.Name + " hoarsely whispers: " + opponent.LastWords);
                         jediKnight.fightLog.FightEvents.Add(jediKnight.Name + " says: Rest in pieces, " + opponent.Name + ".");
                         jediKnight.fightLog.FightEvents.Add(opponent.Name + " has bought the big farm in the sky.");
+                        
+                        opponent.numOfDeaths++;
+                        logTxt.Main(opponent.Name + " has died " + opponent.numOfDeaths + " times");
+                        logTxt.Main(jediKnight.Name + " has died " + jediKnight.numOfDeaths + " times");
                     }
                 }
             }
