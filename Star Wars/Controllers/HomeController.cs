@@ -77,6 +77,10 @@ namespace StarWars.Controllers
                 gameLog.FightEvents.Add(ObiWan.Encouragement);
                 gameLog.FightEvents.Add(ObiWan.Dismay);
 
+                EvilEmperor Palpatine = new EvilEmperor();
+                gameLog.FightEvents.Add(Palpatine.Encouragement);
+                gameLog.FightEvents.Add(Palpatine.Chew);
+
                 List<JediKnight> myJedis = new List<JediKnight>();
                 myJedis.Add(myWarrior);
                 myJedis.Add(DarthV);
@@ -95,6 +99,11 @@ namespace StarWars.Controllers
                     warrior.fightLog.FightEvents.Clear();
                     warrior.fightLog.FightEvents.Add("The Evil Emperor randomly points a bony finger at " + warrior.Name + " and says: 'do some nasty work for me - now!'");
 
+
+                    while (Palpatine.PickJediKnight(myJedis, randomInt) == null)
+                    {
+                        randomInt = ranGen.RandomInteger(myJedis.Count);
+                    }
                     // Attack opponents, but only if they are on the opposing side, and only if you aren't dead yourself..yet.                                      
                     switch (warrior.Name)
                     {
@@ -137,6 +146,16 @@ namespace StarWars.Controllers
                             // add player fight events to game log
                             gameLog.FightEvents.AddRange(warrior.fightLog.FightEvents);
                             break;
+
+                        //case "Palpatine":
+                        //    randomInt = ranGen.RandomInteger(myJedis.Count);
+                            
+                        //    while (Palpatine.PickJediKnight(myJedis, randomInt) == null)
+                        //    {
+                        //        randomInt = ranGen.RandomInteger(myJedis.Count);
+                        //    }
+
+                        //    break;
 
                         // default case will be our guy on the dance floor wanting a serious piece of the action
                         default:
