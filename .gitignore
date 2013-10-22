@@ -38,5 +38,13 @@ Thumbs.db
 
 # MVC4 folders      #
 #####################
-Star Wars/bin
-Star Wars/obj
+Star Wars.v11.suo
+Star Wars/bin/
+Star Wars/obj/
+Star Wars/App_Data/
+Star Wars/App_Start/
+Star Wars/Content/
+Star Wars/Properties/
+Star Wars/Scripts/
+packages/
+Star Wars MVC 4/
