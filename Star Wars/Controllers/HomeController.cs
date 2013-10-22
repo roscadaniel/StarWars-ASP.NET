@@ -12,6 +12,7 @@ namespace StarWars.Controllers
     {
 
         // GET: /Home/
+        // ejdsldkj
         public ActionResult Index()
         {
             int hour = DateTime.Now.Hour;
