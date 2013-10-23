@@ -123,7 +123,7 @@ namespace StarWars.Models
             }
             else
             {
-                logTxt.Main("So sad, random number generator is not working properly");
+               // logTxt.Main("So sad, random number generator is not working properly");
                 return null;
             }
         }

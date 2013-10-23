@@ -11,8 +11,8 @@ namespace StarWars.Models
     // Star Warrior base class - the Obi Wan Kenobi
     public class Obi_Wan : JediKnight
     {
-        public string Encouragement = "Hang on, Luke. Use the fart, Luke!";
-        public string Dismay = "Luke. Concentrate, boy - why did it ever come to this??? Cream him, dammit!!";
+        public string Encouragement = "Obi-Wan: Come on, Luke. Use the fart, Luke!";
+        public string Dismay = "Obi-Wan: Luke. Concentrate, boy - why did it ever come to this??? Cream him, dammit!!";
 
         public Obi_Wan()
         {
@@ -24,10 +24,10 @@ namespace StarWars.Models
             this.Deceased = false;
             this.fightLog = new AttackRecorder();
             this.fightLog.FightEvents = new List<string>()
-	        {
-	            Encouragement,
-                Dismay
-	        };
+            {
+            //    Encouragement,
+            //    Dismay
+            };
 
             this.LastWords = "Aaaaargh, I never thought to take out life insurance! How pathetic of me in this cruel, cruel world.";
         }
@@ -37,5 +37,6 @@ namespace StarWars.Models
             //Reset the damage level
             inst.currentDamageLevel = JediKnight.DamageLevel.Healthy;
         }
+
     }
 }

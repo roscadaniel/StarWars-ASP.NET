@@ -72,11 +72,6 @@ namespace StarWars.Controllers
                 // start up third knight in game log
                 gameLog.FightEvents.AddRange(LukeS.fightLog.FightEvents);
 
-                //Set up Obi Wam
-                Obi_Wan ObiWan = new Obi_Wan();
-                gameLog.FightEvents.Add(ObiWan.Encouragement);
-                gameLog.FightEvents.Add(ObiWan.Dismay);
-
                 EvilEmperor Palpatine = new EvilEmperor();
                 gameLog.FightEvents.Add(Palpatine.Encouragement);
                 gameLog.FightEvents.Add(Palpatine.Chew);
@@ -132,7 +127,9 @@ namespace StarWars.Controllers
                                 warrior.AttackEnemy(warrior, DarthV);
                                 if (myWarrior.DarkSide == true) { 
                                     warrior.AttackEnemy(warrior, myWarrior);
-                                    ObiWan.SaveLuke(warrior);
+                                    //ObiWan.SaveLuke(warrior);
+                                    
+
                                 }
                             }
                             else
@@ -144,6 +141,7 @@ namespace StarWars.Controllers
                                 warrior.fightLog.FightEvents.Add(warrior.Name + " apparently has mucho clout with the Force's Door and is now bouncing back for some swashbuckling revenge!");
                             }
                             // add player fight events to game log
+                            
                             gameLog.FightEvents.AddRange(warrior.fightLog.FightEvents);
                             break;
 
@@ -163,6 +161,7 @@ namespace StarWars.Controllers
                             {
                                 if (warrior.DarkSide == false) { warrior.AttackEnemy(warrior, DarthV); }
                                 if (warrior.DarkSide == true) { warrior.AttackEnemy(warrior, LukeS); }
+                                
                             }
                             else
                             {
@@ -170,6 +169,7 @@ namespace StarWars.Controllers
                                 warrior.Deceased = false;
                                 warrior.currentDamageLevel = JediKnight.DamageLevel.Challenged;
                                 warrior.fightLog.FightEvents.Add(warrior.Name + " apparently has some clout with the Force's Door and is now bent on some challenged-level revenge!");
+                               
                             }
                             // add player fight events to game log
                             gameLog.FightEvents.AddRange(warrior.fightLog.FightEvents);
@@ -182,11 +182,19 @@ namespace StarWars.Controllers
                 {
                     if (!warrior.Deceased)
                     {
+                        //if (warrior.Name == "Luke Skywalker")
+                        //{
+                        //    //add Obi-Wan text on gamelog
+                         Logging logTxt = new Helpers.Logging();
+                         logTxt.Main("When warrior is still alive");
+                        //}
                         gameLog.FightEvents.Add("Ho ho ho! " + warrior.Name + "'s still around, with a rude health of: " + warrior.currentDamageLevel);
                         gameLog.FightEvents.Add(warrior.Name+ " has died " + warrior.numOfDeaths +" times");
                     }
                     else
                     {
+                        Logging logTxt = new Helpers.Logging();
+                        logTxt.Main("When warrior is dead");
                         gameLog.FightEvents.Add("Awww, " + warrior.Name + " is sleeping with the fishes!");
                         gameLog.FightEvents.Add(warrior.Name + " has died " + warrior.numOfDeaths + " times");
                     }

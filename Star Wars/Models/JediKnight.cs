@@ -45,6 +45,8 @@ namespace StarWars.Models
         public string LastWords { get; set; }
         public int numOfDeaths {get; set; }
 
+        
+
         // info properties we need to set up a new recruit
         [Required(ErrorMessage = "Please enter your name")]
         public string Name { get; set; }
@@ -133,10 +135,21 @@ namespace StarWars.Models
                     }
                     else if (opponent.currentDamageLevel == DamageLevel.Wasted)
                     {
-                        jediKnight.fightLog.FightEvents.Add(opponent.Name + " hoarsely whispers: " + opponent.LastWords);
-                        jediKnight.fightLog.FightEvents.Add(jediKnight.Name + " says: Rest in pieces, " + opponent.Name + ".");
-                        jediKnight.fightLog.FightEvents.Add(opponent.Name + " has bought the big farm in the sky.");
-                        
+                        if (opponent.Name == "Luke Skywalker")
+                        {
+                            Obi_Wan ObiWan = new Obi_Wan();
+                            jediKnight.fightLog.FightEvents.Add(ObiWan.Encouragement);
+                            jediKnight.fightLog.FightEvents.Add(ObiWan.Dismay);
+                            ObiWan.SaveLuke(opponent);
+                            logTxt.Main("Obi-Wan helps Luke Skywalker regain his health");
+                            jediKnight.fightLog.FightEvents.Add(opponent.Name + " now has a damageeeee level of: " + opponent.currentDamageLevel);
+                        }
+                        else
+                        {
+                            jediKnight.fightLog.FightEvents.Add(opponent.Name + " hoarsely whispers: " + opponent.LastWords);
+                            jediKnight.fightLog.FightEvents.Add(jediKnight.Name + " says: Rest in pieces, " + opponent.Name + ".");
+                            jediKnight.fightLog.FightEvents.Add(opponent.Name + " has bought the big farm in the sky.");
+                        }
                         opponent.numOfDeaths++;
                         logTxt.Main(opponent.Name + " has died " + opponent.numOfDeaths + " times");
                         logTxt.Main(jediKnight.Name + " has died " + jediKnight.numOfDeaths + " times");
