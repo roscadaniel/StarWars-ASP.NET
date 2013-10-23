@@ -45,8 +45,6 @@ namespace StarWars.Models
         public string LastWords { get; set; }
         public int numOfDeaths {get; set; }
 
-        
-
         // info properties we need to set up a new recruit
         [Required(ErrorMessage = "Please enter your name")]
         public string Name { get; set; }
@@ -132,6 +130,7 @@ namespace StarWars.Models
                         randomInt = ranGen.RandomInteger(enemySlanders.Length - 1);
                         string slander = enemySlanders[randomInt];
                         jediKnight.fightLog.FightEvents.Add(jediKnight.Name + " says: " + slander);
+                        
                     }
                     else if (opponent.currentDamageLevel == DamageLevel.Wasted)
                     {
@@ -142,7 +141,7 @@ namespace StarWars.Models
                             jediKnight.fightLog.FightEvents.Add(ObiWan.Dismay);
                             ObiWan.SaveLuke(opponent);
                             logTxt.Main("Obi-Wan helps Luke Skywalker regain his health");
-                            jediKnight.fightLog.FightEvents.Add(opponent.Name + " now has a damageeeee level of: " + opponent.currentDamageLevel);
+                            jediKnight.fightLog.FightEvents.Add(opponent.Name + " now has a damage level of: " + opponent.currentDamageLevel);
                         }
                         else
                         {

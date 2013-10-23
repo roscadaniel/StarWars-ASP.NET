@@ -12,8 +12,6 @@ namespace StarWars.Controllers
     {
 
         // GET: /Home/
-        // ejdsldkj
-        //one more line here
         public ActionResult Index()
         {
             int hour = DateTime.Now.Hour;
@@ -90,6 +88,7 @@ namespace StarWars.Controllers
                     // Pick a random Jedi Knight to kick into action                
                     int randomInt = ranGen.RandomInteger(myJedis.Count() - 1, 0);
                     JediKnight warrior = myJedis[randomInt];
+                    Palpatine.DarkSideBoost(myJedis);
                     // Empty the individual fight log before next batch recording of events
                     warrior.fightLog.FightEvents.Clear();
                     warrior.fightLog.FightEvents.Add("The Evil Emperor randomly points a bony finger at " + warrior.Name + " and says: 'do some nasty work for me - now!'");
@@ -146,16 +145,6 @@ namespace StarWars.Controllers
                             gameLog.FightEvents.AddRange(warrior.fightLog.FightEvents);
                             break;
 
-                        //case "Palpatine":
-                        //    randomInt = ranGen.RandomInteger(myJedis.Count);
-                            
-                        //    while (Palpatine.PickJediKnight(myJedis, randomInt) == null)
-                        //    {
-                        //        randomInt = ranGen.RandomInteger(myJedis.Count);
-                        //    }
-
-                        //    break;
-
                         // default case will be our guy on the dance floor wanting a serious piece of the action
                         default:
                             if (!warrior.Deceased)
@@ -177,13 +166,11 @@ namespace StarWars.Controllers
                             break;
                     }
                 }
-
-
-
-                    //Palpatine.DarkSideBoost(myJedis);
+                    
                     // Conclude fight at this point - check who's still vital, and do the victory roll
                     foreach (JediKnight warrior in myJedis)
                     {
+                        
                         if (!warrior.Deceased)
                         {
                             Logging logTxt = new Helpers.Logging();

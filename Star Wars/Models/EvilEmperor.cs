@@ -61,7 +61,7 @@ namespace StarWars.Models
 
             foreach (JediKnight dude in JediKnights) 
             {
-                logTxt.Main(dude.Name + "is touched");
+                
                 if (dude.DarkSide == false)
                 {
                     //good guy :((
@@ -86,10 +86,14 @@ namespace StarWars.Models
                     }
                 }
                 else if (dude.DarkSide == true)
-                { 
+                {
                     //bad guy :D
                     switch (dude.currentDamageLevel)
                     {
+                        case JediKnight.DamageLevel.Healthy:
+                            dude.currentDamageLevel = JediKnight.DamageLevel.Healthy;
+                            logTxt.Main(dude.Name + " is Healthy so doesn't need any notch up");
+                            break;
                         case JediKnight.DamageLevel.Challenged:
                             dude.currentDamageLevel = JediKnight.DamageLevel.Healthy;
                             logTxt.Main(dude.Name + " got lifted a notch up from Challenged to Healthy by EvilEmperor");
