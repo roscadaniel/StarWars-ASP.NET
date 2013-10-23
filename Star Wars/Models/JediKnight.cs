@@ -94,6 +94,9 @@ namespace StarWars.Models
                 }
                 else
                 {
+                    //Get the instance of the log class
+                    Logging logTxt = new Helpers.Logging();
+
                     RandomGenerator ranGen = new Helpers.RandomGenerator();
                     int randomInt = ranGen.RandomInteger(10);
                     // record which lightsaber maneouver was randomly chosen
@@ -102,11 +105,20 @@ namespace StarWars.Models
                                              + " by deftly applying the Light Saber Academy approved maneouver "
                                              + currentLightSaberAction);
 
+                    if (currentLightSaberAction == LightSaberAction.Pierce_Enemy_Chest)
+                    {
+                        jediKnight.fightLog.FightEvents.Add(jediKnight.Name + " scored a hole-in " + opponent.Name
+                                             + " by Piercing the Enemy Chest");
+
+                        opponent.currentDamageLevel = DamageLevel.Wasted;
+
+                        //Log action in the log file
+                        logTxt.Main(jediKnight.Name + " killed " + opponent.Name + " by Piercing his chest");
+                    }
+
                     // Make a stab using the current DamageLevel cast to an int. Record which new damage level resulted from the attack.
                     System.Threading.Thread.Sleep(1000); // skip a heartbeat here, so we get a new random seed number
                     randomInt = ranGen.RandomInteger((int)(opponent.currentDamageLevel));
-
-                    Logging logTxt = new Helpers.Logging();
 
                     logTxt.Main("Jedi Knight random health level is: " + randomInt);
 
