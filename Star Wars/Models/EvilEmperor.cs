@@ -61,6 +61,7 @@ namespace StarWars.Models
 
             foreach (JediKnight dude in JediKnights) 
             {
+                logTxt.Main(dude.Name + "is touched");
                 if (dude.DarkSide == false)
                 {
                     //good guy :((
@@ -84,7 +85,7 @@ namespace StarWars.Models
                             break;
                     }
                 }
-                else
+                else if (dude.DarkSide == true)
                 { 
                     //bad guy :D
                     switch (dude.currentDamageLevel)

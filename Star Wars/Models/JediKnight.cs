@@ -154,6 +154,7 @@ namespace StarWars.Models
                         logTxt.Main(opponent.Name + " has died " + opponent.numOfDeaths + " times");
                         logTxt.Main(jediKnight.Name + " has died " + jediKnight.numOfDeaths + " times");
                     }
+
                 }
             }
             catch (Exception e)

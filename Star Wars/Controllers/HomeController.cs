@@ -94,7 +94,7 @@ namespace StarWars.Controllers
                     warrior.fightLog.FightEvents.Clear();
                     warrior.fightLog.FightEvents.Add("The Evil Emperor randomly points a bony finger at " + warrior.Name + " and says: 'do some nasty work for me - now!'");
 
-                    Palpatine.DarkSideBoost(myJedis);
+                    
 
                     while (Palpatine.PickJediKnight(myJedis, randomInt) == null)
                     {
@@ -178,25 +178,33 @@ namespace StarWars.Controllers
                     }
                 }
 
-                // Conclude fight at this point - check who's still vital, and do the victory roll
-                foreach (JediKnight warrior in myJedis)
-                {
-                    if (!warrior.Deceased)
-                    {
-                        Logging logTxt = new Helpers.Logging();
-                        logTxt.Main("Alive");
 
-                        gameLog.FightEvents.Add("Ho ho ho! " + warrior.Name + "'s still around, with a rude health of: " + warrior.currentDamageLevel);
-                        gameLog.FightEvents.Add(warrior.Name+ " has died " + warrior.numOfDeaths +" times");
-                    }
-                    else
+
+                    //Palpatine.DarkSideBoost(myJedis);
+                    // Conclude fight at this point - check who's still vital, and do the victory roll
+                    foreach (JediKnight warrior in myJedis)
                     {
-                        Logging logTxt = new Helpers.Logging();
-                        logTxt.Main("Dead");
-                        gameLog.FightEvents.Add("Awww, " + warrior.Name + " is sleeping with the fishes!");
-                        gameLog.FightEvents.Add(warrior.Name + " has died " + warrior.numOfDeaths + " times");
+                        if (!warrior.Deceased)
+                        {
+                            Logging logTxt = new Helpers.Logging();
+                            logTxt.Main("Alive");
+                           
+                            gameLog.FightEvents.Add("Ho ho ho! " + warrior.Name + "'s still around, with a rude health of: " + warrior.currentDamageLevel);
+                            gameLog.FightEvents.Add(warrior.Name + " has died " + warrior.numOfDeaths + " times");
+                        }
+                        else
+                        {
+                            Logging logTxt = new Helpers.Logging();
+                            logTxt.Main("Dead");
+                            gameLog.FightEvents.Add("Awww, " + warrior.Name + " is sleeping with the fishes!");
+                            gameLog.FightEvents.Add(warrior.Name + " has died " + warrior.numOfDeaths + " times");
+                        }
                     }
-                }
+
+                // Outputs the overall winner at the end of the battle according to how many times he/she has died
+                    int Winner = WinnerOfDeaths(myJedis);
+                    gameLog.FightEvents.Add("The winner is: " + myJedis[Winner].Name);
+
 
                 // Set up viewbag list of event strings
                 ViewBag.FightDescription = new List<string> { "A long time ago in a galaxy far, far away...." };
@@ -215,6 +223,22 @@ namespace StarWars.Controllers
                 return View();
             }
 
+        }
+
+        //
+        public int WinnerOfDeaths(List<JediKnight> myJedis)
+        {
+            int MinNumOfDeaths = 50;
+            int IndexOfMinNumOfDeaths = 0;
+            for (int i = 0; i < myJedis.Count; i++)
+            {
+                if (myJedis[i].numOfDeaths < MinNumOfDeaths)
+                {
+                    MinNumOfDeaths = myJedis[i].numOfDeaths;
+                    IndexOfMinNumOfDeaths = i;
+                }
+            }
+            return IndexOfMinNumOfDeaths;
         }
     }
 }
