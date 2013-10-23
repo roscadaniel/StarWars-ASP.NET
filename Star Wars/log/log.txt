@@ -1,0 +1,485 @@
+
+Log Entry : 13:57:58 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Healthy to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:57:58 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Healthy to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:57:58 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:57:59 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 15
+-------------------------------
+
+Log Entry : 13:57:59 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Challenged to Hurting by EvilEmperor
+-------------------------------
+
+Log Entry : 13:57:59 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Critical to Hurting by EvilEmperor
+-------------------------------
+
+Log Entry : 13:57:59 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Challenged to Hurting by EvilEmperor
+-------------------------------
+
+Log Entry : 13:57:59 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:00 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 22
+-------------------------------
+
+Log Entry : 13:58:00 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Hurting to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:00 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Critical to Hurting by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:00 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Hurting to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:00 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:01 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 6
+-------------------------------
+
+Log Entry : 13:58:01 den 23 oktober 2013
+  :
+  :Obi-Wan helps Luke Skywalker regain his health
+-------------------------------
+
+Log Entry : 13:58:01 den 23 oktober 2013
+  :
+  :Luke Skywalker has died 1 times
+-------------------------------
+
+Log Entry : 13:58:01 den 23 oktober 2013
+  :
+  :Darth Vader has died 1 times
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 3
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :ijhkjn has died 1 times
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :Darth Vader has died 2 times
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Hurting to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Healthy to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Challenged to Hurting by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Challenged to Healthy by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Challenged to Hurting by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:02 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:03 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 90
+-------------------------------
+
+Log Entry : 13:58:03 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Hurting to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:03 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Hurting to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:03 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:04 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 0
+-------------------------------
+
+Log Entry : 13:58:04 den 23 oktober 2013
+  :
+  :Obi-Wan helps Luke Skywalker regain his health
+-------------------------------
+
+Log Entry : 13:58:04 den 23 oktober 2013
+  :
+  :Luke Skywalker has died 2 times
+-------------------------------
+
+Log Entry : 13:58:04 den 23 oktober 2013
+  :
+  :Darth Vader has died 3 times
+-------------------------------
+
+Log Entry : 13:58:05 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 7
+-------------------------------
+
+Log Entry : 13:58:05 den 23 oktober 2013
+  :
+  :ijhkjn has died 2 times
+-------------------------------
+
+Log Entry : 13:58:05 den 23 oktober 2013
+  :
+  :Darth Vader has died 4 times
+-------------------------------
+
+Log Entry : 13:58:05 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Healthy to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:05 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:06 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 26
+-------------------------------
+
+Log Entry : 13:58:06 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Critical to Wasted by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:06 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Challenged to Hurting by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:06 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:07 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 2
+-------------------------------
+
+Log Entry : 13:58:07 den 23 oktober 2013
+  :
+  :Obi-Wan helps Luke Skywalker regain his health
+-------------------------------
+
+Log Entry : 13:58:07 den 23 oktober 2013
+  :
+  :Luke Skywalker has died 3 times
+-------------------------------
+
+Log Entry : 13:58:07 den 23 oktober 2013
+  :
+  :Darth Vader has died 5 times
+-------------------------------
+
+Log Entry : 13:58:07 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Critical to Wasted by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:07 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Healthy to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:07 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:08 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 10
+-------------------------------
+
+Log Entry : 13:58:08 den 23 oktober 2013
+  :
+  :Obi-Wan helps Luke Skywalker regain his health
+-------------------------------
+
+Log Entry : 13:58:08 den 23 oktober 2013
+  :
+  :Luke Skywalker has died 4 times
+-------------------------------
+
+Log Entry : 13:58:08 den 23 oktober 2013
+  :
+  :Darth Vader has died 6 times
+-------------------------------
+
+Log Entry : 13:58:08 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Critical to Wasted by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:08 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Healthy to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:08 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:09 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 6
+-------------------------------
+
+Log Entry : 13:58:09 den 23 oktober 2013
+  :
+  :Obi-Wan helps Luke Skywalker regain his health
+-------------------------------
+
+Log Entry : 13:58:09 den 23 oktober 2013
+  :
+  :Luke Skywalker has died 5 times
+-------------------------------
+
+Log Entry : 13:58:09 den 23 oktober 2013
+  :
+  :Darth Vader has died 7 times
+-------------------------------
+
+Log Entry : 13:58:09 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Critical to Wasted by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:09 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Healthy to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:09 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:10 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 6
+-------------------------------
+
+Log Entry : 13:58:10 den 23 oktober 2013
+  :
+  :Darth Vader has died 8 times
+-------------------------------
+
+Log Entry : 13:58:10 den 23 oktober 2013
+  :
+  :ijhkjn has died 3 times
+-------------------------------
+
+Log Entry : 13:58:10 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Wasted to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:10 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Challenged to Hurting by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:10 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:11 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 1
+-------------------------------
+
+Log Entry : 13:58:11 den 23 oktober 2013
+  :
+  :Darth Vader has died 9 times
+-------------------------------
+
+Log Entry : 13:58:11 den 23 oktober 2013
+  :
+  :ijhkjn has died 4 times
+-------------------------------
+
+Log Entry : 13:58:11 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Wasted to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:11 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Hurting to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:11 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:12 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 1
+-------------------------------
+
+Log Entry : 13:58:13 den 23 oktober 2013
+  :
+  :Darth Vader has died 10 times
+-------------------------------
+
+Log Entry : 13:58:13 den 23 oktober 2013
+  :
+  :ijhkjn has died 5 times
+-------------------------------
+
+Log Entry : 13:58:13 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Wasted to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:13 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Critical to Wasted by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:13 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :Jedi Knight random health level is: 0
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :Darth Vader has died 11 times
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :ijhkjn has died 6 times
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Wasted to Critical by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Hurting to Challenged by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :ijhkjn was taken a peg down from Critical to Wasted by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :Darth Vader got lifted a notch up from Challenged to Healthy by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :Luke Skywalker was taken a peg down from Critical to Wasted by EvilEmperor
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :There's a new Jedi Knight for you
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :When warrior is still alive
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :When warrior is still alive
+-------------------------------
+
+Log Entry : 13:58:14 den 23 oktober 2013
+  :
+  :When warrior is still alive
+-------------------------------

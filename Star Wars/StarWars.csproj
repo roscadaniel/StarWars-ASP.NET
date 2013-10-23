@@ -129,6 +129,7 @@
     <Compile Include="Helpers\AttackRecorder.cs" />
     <Compile Include="Helpers\Logging.cs" />
     <Compile Include="Helpers\RandomGenerator.cs" />
+    <Compile Include="Models\EvilEmperor.cs" />
     <Compile Include="Models\Obi_Wan.cs" />
     <Compile Include="Models\Darth.cs" />
     <Compile Include="Models\JediKnight.cs" />

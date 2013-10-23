@@ -94,6 +94,7 @@ namespace StarWars.Controllers
                     warrior.fightLog.FightEvents.Clear();
                     warrior.fightLog.FightEvents.Add("The Evil Emperor randomly points a bony finger at " + warrior.Name + " and says: 'do some nasty work for me - now!'");
 
+                    Palpatine.DarkSideBoost(myJedis);
 
                     while (Palpatine.PickJediKnight(myJedis, randomInt) == null)
                     {
@@ -182,19 +183,16 @@ namespace StarWars.Controllers
                 {
                     if (!warrior.Deceased)
                     {
-                        //if (warrior.Name == "Luke Skywalker")
-                        //{
-                        //    //add Obi-Wan text on gamelog
-                         Logging logTxt = new Helpers.Logging();
-                         logTxt.Main("When warrior is still alive");
-                        //}
+                        Logging logTxt = new Helpers.Logging();
+                        logTxt.Main("Alive");
+
                         gameLog.FightEvents.Add("Ho ho ho! " + warrior.Name + "'s still around, with a rude health of: " + warrior.currentDamageLevel);
                         gameLog.FightEvents.Add(warrior.Name+ " has died " + warrior.numOfDeaths +" times");
                     }
                     else
                     {
                         Logging logTxt = new Helpers.Logging();
-                        logTxt.Main("When warrior is dead");
+                        logTxt.Main("Dead");
                         gameLog.FightEvents.Add("Awww, " + warrior.Name + " is sleeping with the fishes!");
                         gameLog.FightEvents.Add(warrior.Name + " has died " + warrior.numOfDeaths + " times");
                     }
