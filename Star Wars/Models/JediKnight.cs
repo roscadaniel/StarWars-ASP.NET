@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+//using System.Web.Mail;
+using System.Net.Mail;
 using System.ComponentModel.DataAnnotations;
 using StarWars.Helpers;
 
@@ -78,6 +80,22 @@ namespace StarWars.Models
         {
             try
             {
+
+                //MailMessage mail = new MailMessage();
+                //mail.To.Add("daniel.ros.ca.xdh@gmail.com");
+                //mail.From = new MailAddress("daniel.rosca92@gmail.com");
+                //mail.Subject = "Email using Gmail form our game";
+
+                //string Body = "Hi, this mail is to test sending mail" +
+                //            "using Gmail in ASP.NET";
+                //mail.Body = Body;
+
+                //mail.IsBodyHtml = true;
+                //SmtpClient smtp = new SmtpClient("smtp.gmail.com", 465);
+                //smtp.EnableSsl = true;
+                //smtp.Credentials = new System.Net.NetworkCredential("email", "pass");
+                //smtp.Send(mail);
+
                 // set up an attack using a standard lightsaber action, registering opponent's resulting damage level, and slandering him                
                 if (opponent.currentDamageLevel == DamageLevel.Wasted)
                 {   

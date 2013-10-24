@@ -11,7 +11,8 @@ namespace StarWars.Helpers
         public void Main(string logMessage)
         {
             string mydocpath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            mydocpath += "/StarProject/StarWars-ASP.NET/Star Wars/log/log.txt";
+
+            mydocpath += "/log.txt";
             using (StreamWriter w = File.AppendText(mydocpath))
             {
                 Log(logMessage, w);
